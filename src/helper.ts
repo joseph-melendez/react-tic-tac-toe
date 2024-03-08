@@ -24,7 +24,7 @@ export const checkBoardStatus = (board: string[][]): Array<Array<number>> => {
         let square = '';
 
         for (let x = 0; x < template.length; x++) {
-            let current = board[template[x][0]][template[x][1]];
+            const current = board[template[x][0]][template[x][1]];
 
             if (current === '' || (square !== '' && current !== square)) {
                 return false;
