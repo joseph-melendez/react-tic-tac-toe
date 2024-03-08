@@ -1,4 +1,4 @@
-import { checkBoardStatus, initializeBoard } from "./helper";
+import { checkBoardStatus, initializeBoard } from "../helper";
 import {
     horizontal1,
     horizontal2,
@@ -8,7 +8,7 @@ import {
     vertical3,
     diaganol1,
     diaganol2
-} from './constants'
+} from '../constants'
 
 
 describe('helper.test.ts -> Test board configurations', () => {

@@ -23,12 +23,3 @@
 .ticCol.tie {
     background-color: lightgray;
 }
-
-.gameOver {
-    min-height: 25px;
-    padding: 5px;
-}
-
-.playAgain {
-    cursor: pointer;
-}

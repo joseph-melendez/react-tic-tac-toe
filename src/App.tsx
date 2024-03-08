@@ -1,10 +1,10 @@
-import { Board } from './Board';
+import { Game } from './Game';
 import './App.css'
 
 function App() {
   return (
     <>
-      <Board />
+      <Game />
     </>
   )
 }
