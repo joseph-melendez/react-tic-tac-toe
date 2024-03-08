@@ -1,0 +1,11 @@
+export const xValue = 'X';
+export const oValue = 'O';
+export const totalSquares = 9;
+export const horizontal1 = [[0,0], [0,1], [0,2]];
+export const horizontal2 = [[1,0], [1,1], [1,2]];
+export const horizontal3 = [[2,0], [2,1], [2,2]];
+export const vertical1 = [[0,0], [1,0], [2,0]];
+export const vertical2 = [[0,1], [1,1], [2,1]];
+export const vertical3 = [[0,2], [1,2], [2,2]];
+export const diaganol1 = [[0,0], [1,1], [2,2]];
+export const diaganol2 = [[2,0], [1,1], [0,2]];
