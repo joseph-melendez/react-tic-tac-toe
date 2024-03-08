@@ -1,4 +1,4 @@
-import { checkBoardStatus } from "./helper";
+import { checkBoardStatus, initializeBoard } from "./helper";
 import {
     horizontal1,
     horizontal2,
@@ -11,7 +11,17 @@ import {
 } from './constants'
 
 
-describe('Test board configurations', () => {
+describe('helper.test.ts -> Test board configurations', () => {
+    it("Board initialized", () => {
+        const board = [
+            ['', '', ''],
+            ['', '', ''],
+            ['', '', ''],
+        ];
+
+        expect(initializeBoard()).toEqual(board);
+    });
+
     it("No winner", () => {
         const board = [
             ['X', '0', 'X'],
